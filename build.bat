@@ -1,0 +1,1 @@
+g++ -I glfwbin/include main.cpp Ball.cpp Pendulum.cpp Matrix.cpp glfwUtils.cpp -L glfwbin/lib-mingw-w64 -lglfw3 -lglu32 -lopengl32 -lkernel32 -luser32 -lgdi32 -lws2_32 -o main.exe
